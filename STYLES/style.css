@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aliceblue; */
+}
+
+.container-form{
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #9ec7e0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-form label {
+    margin-top: 5px;
+    font-size: larger;
+}
+
+.container-form input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+}
+
+.container-form .submit {
+    background-color: #9ec7e0;
+    color: white;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.errorName,
+.errorEmail,
+.errorPassword,
+.errorEqual{
+    color: red;
+    display: none;
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
